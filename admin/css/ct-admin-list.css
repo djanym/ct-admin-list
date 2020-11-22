@@ -1,0 +1,20 @@
+.tablenav-pages .current-page-selector {
+    margin: 0 2px 0 0;
+    padding: 4px 5px 5px;
+    font-size: 13px;
+    text-align: center;
+    height: 28px;
+    vertical-align: top;
+}
+
+.tablenav-pages .pagination-links a[disabled=disabled],
+.tablenav-pages .pagination-links a[disabled=disabled]:hover {
+    background-color: #eeeeee;
+    color: #cccccc;
+    border-color: #dddddd;
+    cursor: default;
+}
+
+.roles-list-nav li:last-child .separator{
+    display: none;
+}
